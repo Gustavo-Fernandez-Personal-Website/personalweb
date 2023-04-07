@@ -1,0 +1,74 @@
+/* This is for the navigation menu*/
+.topnav {
+    overflow: hidden;
+    width: 50%;
+    margin-inline: 25%;
+    border-top: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 16px 30px;
+    
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: rgb(150, 150, 150);
+}
+
+
+
+/* This is the header on the top of the page */
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    float: top;
+    text-align: center;
+    padding: 0px 25px;
+    font-size: 35px;
+
+}
+
+
+
+/* this is the text inside the leaves image and the image itself */
+.Welcome {
+    text-align: center;
+
+}
+
+.middle {
+    position: absolute;
+    font-size: 1000px;
+}
+
+
+/*this is the css for the about me section*/
+
+.Who {
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 16%;
+    padding-top: 16%;
+}
+
+p {
+    font-size: 50px;
+    padding-right: 60%;
+    padding-left: 10%;
+}
+
+.Me {
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+}
