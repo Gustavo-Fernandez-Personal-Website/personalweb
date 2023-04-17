@@ -40,19 +40,36 @@ h1 {
 
 /* this is the text inside the leaves image and the image itself */
 .Welcome {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
     text-align: center;
+    align-items: center;
+    color: white;
 
 }
 
 .middle {
-    position: absolute;
-    font-size: 1000px;
+    padding-left: 950px;
+    font-size: 60px;
+    padding-top: 250px;
+    color: white;
+
+}
+
+.middle-bottom {
+    position: relative;
+    font-size: 20px;
+    padding: 400px 0 0 10px;
+    text-align: center;
+    left: -54vh;
 }
 
 
 /*this is the css for the about me section*/
 
 .Who {
+    display: flex;
     font-size: 90px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 16%;
@@ -66,9 +83,31 @@ p {
 }
 
 .Me {
+    display: flex;
     float: right;
     text-align: center;
-    display: flex;
     justify-content: top;
     align-items: top;
 }
+
+/* this is for the contact form */
+.form {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+ }
+
+ .forminput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-self: center;
+ }
+
+ .submit {
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    align-self: center;
+ }
